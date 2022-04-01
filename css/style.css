@@ -1,0 +1,145 @@
+*{
+    font-family: 'Rubik';
+}
+a{
+    text-decoration-style: none;
+}
+body{
+    background: #D5D8DC;
+}
+div#Principal{
+    background-image: url(PizzaTuluaAnder.jpg);
+    background-size: 100vw;
+    
+}
+
+div#Principal::after{
+    background-color: black;
+}
+div#Circle{
+    width: 20vw;
+    background-color:black;
+    height: 20vw;
+    margin: auto;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    padding: 0px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 1s;
+    transition-delay: 0.1s;
+    opacity: 0.5;
+    color: white;
+    padding-top: 10%;
+    
+}
+div#Circle h1{
+    transform: translateY(-50%);
+}
+div#Circle:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    
+}
+a h3{
+    transition: 0.2s;
+    color:white;
+}
+a h3:hover{
+    color:#C0392B;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+.Catalogo{
+    width: 95%;
+    background-color: #404040;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 2px gray;
+}
+
+.Catalogo h2{
+    font-weight: 900;
+    color: #C0392B;
+}
+
+.Catalogo h5{
+    margin-top: 20px;
+    color:white;
+}
+
+.Boton{
+    background: white;
+    float: right;
+    border-radius: 20px;
+    padding: 5px;
+    color: #C0392B;
+    transition: 0.8s;
+}
+
+.Boton:hover{
+    background-color: #404040;
+    border: 2px solid #C0392B;
+    transform: translate(-2px,-2px);
+    transition: 0.2s;
+}
+
+.Boton a{
+    color: #C0392B;
+    color: inherit;
+}
+
+#Llamadas{
+    background: red;
+    border-radius: 20px;
+}
+
+iframe{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius:5px;
+
+}
+
+#Uno{
+    background-color: #4C4C4C;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    padding: 50px;
+}
+
+#Dos{
+    background-color: #2D2D2D;
+    border-radius: 0 20px 20px 0;
+}
+
+footer{
+    background: #404040;
+    padding-top: 40px;
+    color: white;
+    
+}
+
+#Pizza{
+    width: 100%;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Centrado{
+    margin-top: 50%;
+    color: white;
+
+}
